@@ -1,0 +1,34 @@
+# Estate - By Matt / Daxxiee & HyperPlay
+
+# How long do estates take to expire? In hours
+
+hours_until_house_expire: 72
+
+# How much is the downpayment for an Estate?
+
+initial_price: 300.0
+
+# How much does it cost each time to renew the Estate?
+
+renew_price: 275.0
+
+
+# Line 1 will always be "[Home]" and can not be modified.
+
+signs:
+
+  available:
+
+    Line2: "&lAvailable"
+
+    Line3: "&2{PRICE}"
+
+    Line4: "&l3:00:00"
+
+  occupied:
+
+    Line2: "{OWNER}"
+
+    Line3: "{PRICE}"
+
+    Line4: "{TIME}"

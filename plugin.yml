@@ -1,0 +1,13 @@
+name: GTAEstate
+version: 1.0
+author: Matt (Daxxiee)
+main: me.matt.gtaestate.HomesPlugin
+
+depend: ["WorldEdit", "Vault"]
+soft-depend: ["Essentials"]
+
+commands:
+  home:
+    permission: homes.use
+  homeadmin:
+    permission: homes.admin
